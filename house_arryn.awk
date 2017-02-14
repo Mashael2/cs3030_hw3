@@ -2,7 +2,7 @@
 
 BEGIN{FS=","} # comma delimiter
 
-#NR>1
+
 {
 	year=substr($5,length($5) - 3)
 	#print year

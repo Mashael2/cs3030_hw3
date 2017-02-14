@@ -19,7 +19,6 @@ help()
 	exit 1
 }
 
-#if [ "$1" == "--help" ] || [ "$1" != "-s" ] || [ "$3" != "-a" ] || [ "$5" != "-i" ]
 if [ "$1" == "--help" ] 
 then
 # Call help function
